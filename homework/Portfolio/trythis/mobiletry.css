@@ -1,0 +1,81 @@
+@import "desktoptry.css";
+
+header
+{
+  min-width: 100%;
+  height:175px;
+  display: block;
+}
+
+.main-nav
+{
+  float: left;
+  list-style: none;
+  margin-top: 30px
+}
+
+.main-nav li a
+{
+  color:white;
+  text-decoration:none;
+  padding: 2px 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-family: Roboto;
+  margin: 10px;
+}
+
+#grid1
+{
+  display: block;
+}
+
+#grid2
+{
+  display: block;
+}
+
+#grid3
+{
+  display: block;
+}
+
+#grid4
+{
+  display: block;
+}
+
+.imageGallery{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-nav li
+{
+  display: block;
+}
+
+
+.sec{
+  margin-top: 10px;
+  margin-button: 10px;
+}
+.sec2{
+  margin-top: 10px;
+  margin-button: 10px;
+}
+.s1{
+  margin-top: 10px;
+  margin-button: 10px;
+}
+
+.s2{
+  margin-top: 10px;
+  margin-button: 10px;
+}
+
+.s3{
+  margin-top: 10px;
+  margin-button: 10px;
+}

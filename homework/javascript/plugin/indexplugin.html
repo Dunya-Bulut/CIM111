@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dunya Bulut">
+    <meta name="description" content="Turkey-Jquery">
+    <meta name="keywords" content="intro, html, web, portfolio,resume,javascript,Turkey, Istanbul, ayasofya, Kapadokya">
+    <meta charset="UTF-8">
+    <title>Turkey Travel Website</title>
+    <link rel="stylesheet" href="text.css" type="text/css">
+
+    <title>Turkey Travel Website</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.tiltedpage-scroll.js"></script>
+    <link rel="stylesheet" href="tiltedpage_scroll.css" type="text/css"></script>
+  </head>
+  <body>
+
+    <header>
+
+      <h1 id="visitTurkey">VISIT TURKEY</h1>
+
+      <div class="row">
+        <ul class="main-nav">
+          <li> <a href="#culturegrid"> CULTURE </a></li>
+          <li> <a href="#Eat"> EAT & DRINK </a></li>
+          <li> <a href="#nature"> NATIONAL PARKS</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+  <div class="main">
+
+
+
+      <section class="page1">
+
+    <div id="culturegrid">
+
+<section>
+      <h1>Culture.</h1>
+      <br>
+      <p>The culture of Turkey combines a heavily diverse and heterogeneous set of elements that have been derived from the various cultures of the <strong>Eastern Mediterranean and Central Asian region </strong> and to a lesser degree, Eastern European, and Caucasian traditions. Many of these traditions were initially brought together by the <strong>Ottoman Empire,</strong> a multi-ethnic and multi-religious state. <br>
+        <br>
+        During the early years of the republic, the government invested a large amount of resources into fine arts such as paintings, sculpture and architecture. This was done as both a process of modernization and of creating a cultural identity. Because of the different historical factors defining the Turkish identity the culture of Turkey combines clear efforts of modernization and Westernization undertaken in varying degrees since the 1800s with a simultaneous desire to maintain traditional religious and historical values.
+      </p>
+</section>
+
+
+      <section>
+        <img class="resim" src="imagesnew/dolmabahce.jpg" alt="cultureimage">
+      </section>
+    </div>
+
+    </section>
+
+
+<section class="page2">
+<div id="Eat">
+  <h1>Eat & Drink.</h1>
+
+<section id=tops>
+  <ol> <span class="list"> Top Dishes </span>
+  <li>Manti</li>
+  <li>Sarma</li>
+  <li>Köfte</li>
+</ol>
+
+<ol> <span class="list"> Top Deserts</span>
+<li>Baklava</li>
+<li>Kazandibi</li>
+<li>Künefe</li>
+</ol>
+
+<ol> <span class="list"> Top Ottoman Recipies</span>
+<li>Kebap</li>
+<li>Hünkar begendi</li>
+<li>Iskender</li>
+</ol>
+
+</section>
+
+  <section id="foodgrid">
+    <img class="resim" height="200px" src="imagesnew/baklava.jpg" alt="cultureimage">
+    <img class="resim" src="imagesnew/kebap.jpg" alt="cultureimage">
+    <img class="resim" src="imagesnew/sarma.jpg" alt="cultureimage">
+    <img class="resim" src="imagesnew/kunefe.jpg" alt="cultureimage">
+
+  </section>
+</div>
+
+</section>
+
+<section class="page3">
+<div id=drinkk>
+  <section>
+  <h1>Drink.</h1>
+
+  <ul> <span class="list1"> Most Popular Drinks </span>
+  <li>Ayran- Made with Yogurt</li>
+  <li>Turkish Coffee</li>
+  <li>Black Tea</li>
+  <li>Raki- A type of strong alcohol</li>
+</ul>
+
+</section>
+<section>
+<img class="resim" src="imagesnew/cay.jpeg" alt="cultureimage">
+</section>
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section class="last-page">
+<div id="nature">
+
+<section>
+  <h1>National Parks.</h1>
+  <br>
+  <p> <strong> Ölüdeniz </strong> is a resort village on the southwest coast of Turkey. It’s known for the blue lagoon of Ölüdeniz Tabiat Parkı and the wide, white Belcekız Beach. Overlooking the village is Babadağ mountain from where paragliders take to the skies. The Lycian Way is a long-distance marked footpath starting in Ölüdeniz, and has coastal views. To the south, Butterfly Valley is a nature reserve with a secluded bay.
+  </p>
+</section>
+</div>
+
+</section>
+<footer>Dunya Bulut 2019 <br>All rights reserved.&nbsp; &copy; Last update: 04.02.2019 <br> UM School of Communication
+5100 Brunson Drive, Coral Gables, FL</footer>
+</div>
+
+<script>
+$(document).ready(function(){
+  //Jquery code
+  $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",
+    angle: 50,
+    opacity: true,
+    scale: true,
+    outAnimation: true
+  });
+  //End of jquery code
+  });
+</script>
+
+  </body>
+</html>

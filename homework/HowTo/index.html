@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dunya Bulut">
+    <meta name="description" content="HowTo-javascript">
+    <meta name="keywords" content="intro, html, web, portfolio,resume,javascript,howto">
+    <meta charset="UTF-8">
+    <title>HowTo</title>
+    <link rel="stylesheet" href="HowTo.css" type="text/css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1>HOW TO DRAW A BUTTERFLY</h1>
+      <div class="row">
+        <ul class="main-nav">
+          <li class="active"> <a href="tools"> TOOLS </a></li>
+          <li> <a href="#step1click"> STEPS </a></li>
+          <li> <a href="#duration"> DURATION</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+      <h2 id="tools">TOOLS</h2>
+      <div id="replaceTools">
+
+      </div>
+
+      <p id="click1">Click here to find where to buy and location</p>
+      <div id="hideinfo">
+        <ul>
+          <li> <strong>BLICK Art store</strong> -Coral Gables, Dixie Highway. Avarage prices, variety of range.</li>
+          <li><strong>Target</strong> -Dadeland Station. Medium prices, limited range.</li>
+        </ul>
+      </div>
+       <p id="hide">Click here to hide the information.</p>
+
+       <div id="step1click"> <h2>STEP 1</h2> </div>
+       <div id="step1click2"> <h5>Click here to hide step 1</h5> </div>
+
+       <div id="grid1">
+
+
+        <section>
+          <h4>Draw the shape with a sketching pencil</h4>
+
+          <p>Lightly sketch out the shape of the butterfly. Start with the wings
+            and continue with the head. After doing so, add the details in the wings.
+            Remember, you are only sketching. So do not overdo the lines or make your lines bold.
+            You will do it when you feel confident with the general shape and the details.
+            Move to step 2.</p>
+        </section>
+
+        <section>
+          <img class="imageGallery" src="imagesjava/picture1.jpg" alt="step1">
+        </section>
+
+      </div>
+
+      <div id="step2click"> <h2>STEP 2</h2> </div>
+      <div id="step2click2"> <h5>Click here to hide step 2</h5> </div>
+
+    <div id="grid2">
+
+        <section>
+            <h4>Draw the branches</h4>
+          <p>Now that you are happy with the wings and the details inside, add the
+            branches that the butterfly is standing on. Again, this is still the
+          sketching process so keep your pencil light. Try to make the branches
+        dynamic instead of straight lines. Move on to the next step.</p>
+
+        </section>
+        <section>
+          <img class="imageGallery" src="imagesjava/picture2.jpg" alt="step2">
+        </section>
+
+      </div>
+
+      <div id="step3click"> <h2>STEP 3</h2> </div>
+      <div id="step3click2"> <h5>Click here to hide step 3</h5> </div>
+
+<div id="grid3">
+
+
+        <section>
+                <h4>Add the fine lines with a drawing pen</h4>
+          <p>Now, your whole shape looks like there is a butterfly. You are happy with
+          the overall shape. Change your pencil to an ink pen and loosely track
+          what you draw so far. Do not make bold lines yet. We are going to add the thickness
+          on the next step. For now, just keep it loose and follow the path you drew.
+          Again, do not overdo it. Move on to step 4 to add thickness.</p>
+
+        </section>
+        <section>
+          <img class="imageGallery" src="imagesjava/picture3.jpg" alt="step3">
+        </section>
+
+      </div>
+
+      <div id="step4click"> <h2>STEP 4</h2> </div>
+      <div id="step4click2"> <h5>Click here to hide step 4</h5> </div>
+
+  <div id="grid4">
+
+        <section>
+              <h4>Bolden specific areas</h4>
+          <p>In this step, you will find the areas that needs thickness. Bold lines indicate
+            depth and texture as well. This is a Monarch Butterfly, so it has a specific
+            design on its wings. It is like fingerprints, they are all different. Try drawing
+          circles first and then fill the rest with black inked pen. This step needs more attention
+          compared to previous steps. Now that you finished this step, you are looking at
+          a line drawing of a butterfly. Add the colors in step 5.
+      </p>
+
+        </section>
+        <section>
+          <img class="imageGallery" src="imagesjava/picture4.jpg" alt="step4">
+        </section>
+
+      </div>
+
+      <div id="step5click"> <h2>STEP 5</h2> </div>
+      <div id="step5click2"> <h5>Click here to hide step 5</h5> </div>
+
+<div id="5p">
+    <h4>Add the colors</h4>
+      <p>
+            Use your brush and add lots of water before applying the color to the paper.
+          This will reduce the color pixels per inch and create a soft sky effect. Use
+        a "Azura" blue for sky. Wait few minutes and continue with the wings. Remember, because the second wing
+      is on the back it will have a shadow, thus, it will be a darker color. After adding the colors
+    to the wings, move on to branches and apply 2 more layers after it dries. This will add a great deal
+  of realism because the color change will indicate shadows. You are all done! Congrats, now you know how to
+ draw a butterfly!</p>
+</div>
+      <div id="grid5">
+
+        <section>
+          <img class="imageGallery" src="imagesjava/picture5.jpg" alt="Step5_3">
+        </section>
+
+
+      </div>
+
+      <script type="text/javascript" src="javas/jquery.js"></script>
+      <!-- absolute -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <script type="text/javascript">
+            $(document).ready(function(){
+                //All jquery code goes below
+                    $("#hideinfo").hide();
+
+                    $("#click1").click(function(){
+                      $("#hideinfo").show();
+                      });
+
+                      $("#hide").click(function(){
+                        $("#hideinfo").hide();
+
+
+
+                    }); //End of click1
+
+                    // start of Step1
+                      $("#grid1").hide();
+
+                      $("#step1click").click(function(){
+                        $("#grid1").show();
+                        });
+
+                        $("#step1click2").click(function(){
+                          $("#grid1").hide();
+                          });
+
+                      // start of step2
+                      $("#grid2").hide();
+
+                      $("#step2click").click(function(){
+                        $("#grid2").show();
+                        });
+
+                        $("#step2click2").click(function(){
+                          $("#grid2").hide();
+                          });
+
+                        //step 3
+                        $("#grid3").hide();
+
+                        $("#step3click").click(function(){
+                          $("#grid3").show();
+                          });
+
+                          $("#step3click2").click(function(){
+                            $("#grid3").hide();
+                            });
+
+                        //step4
+                        $("#grid4").hide();
+
+                        $("#step4click").click(function(){
+                          $("#grid4").show();
+                          });
+
+                          $("#step4click2").click(function(){
+                            $("#grid4").hide();
+                            });
+
+                          //step5
+                          $("#grid5").hide();
+
+                          $("#step5click").click(function(){
+                            $("#grid5").show();
+                            });
+
+                            $("#step5click2").click(function(){
+                              $("#grid5").hide();
+                              });
+//p
+                              $("#5p").hide();
+
+                              $("#step5click").click(function(){
+                                $("#5p").show();
+                                });
+
+                                $("#step5click2").click(function(){
+                                  $("#5p").hide();
+                                  });
+
+//css
+$("#step1click").mouseenter(function(){
+  $("#step1click").css("color","grey");
+});
+
+  $("#step1click").mouseleave(function(){
+    $("#step1click").css("color","black");
+});
+
+//HTML
+$("#tools").click(function(){
+  $("#replaceTools").html("<ul><li> <strong>Water soluble-pencils</strong> -Derwent Watersoluble Sketching Pencils</li><li><strong>Water-proof pen-Fabe</strong>r-Castell Pitt Artists’ Pens</li><li><strong>Aquash Water Brush</strong> -Pentel</li></ul>");
+});
+
+              // End of jquery code
+            });
+      </script>
+
+<section id="duration">
+      <h2>DURATION</h2>
+        <em>Drawing time:<em>15 minutes  <br>
+        <em>Watercoloring:<em>3 minutes   <br>
+        <em>Drying time:<em>10 minutes
+
+    </section>
+  </body>
+
+
+  <footer>Dunya Bulut 2019 <br>All rights reserved.&nbsp; &copy; Last update: 04.02.2019 <br> UM School of Communication
+  5100 Brunson Drive, Coral Gables, FL</footer>
+
+</html>

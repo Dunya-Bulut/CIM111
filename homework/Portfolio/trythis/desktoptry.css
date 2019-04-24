@@ -1,0 +1,155 @@
+ @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*
+{
+  margin: 0;
+  padding:0;
+}
+
+header
+{
+  background-image: url(../images/linkedin2copy.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 30px
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color:white;
+  text-decoration:none;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-family: Roboto;
+}
+
+.main-nav li.active a
+{
+  border:1px solid white;
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+body
+{
+  font-family: serif;
+}
+.row
+{
+  max-width: 1200px;
+  margin:auto;
+}
+
+.titleinthemiddle
+{
+  color:white;
+  text-decoration:none;
+  padding: 5px 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  position: absolute;
+  right: 50px;
+  margin-top: 390px;
+  width: 350px;
+
+}
+
+.btn
+{
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+h2{
+  margin-top: 20px;
+  font-family: serif;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+#mainTitle{margin-left: 20px
+width: 960px}
+
+#column1{width: 50%;}
+#column2{width: 50%;}
+
+main{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+
+}
+#grid1{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+#grid2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#grid3{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 18px;
+  text-align: center;
+  margin-top: 20px;
+  grid-row-gap: 7px;
+  grid-column-gap: 10px;
+}
+
+#grid4{
+  display: grid;
+  margin-bottom: 18px;
+  text-align:center;
+
+
+}
+
+.imageGallery{
+  width: 80%;
+  margin: 0 auto;
+  }
+
+ footer{
+     width: 80%;
+     height: 100px;
+     background-color: lemonchiffon;
+     margin: 0 auto;
+     font-family: serif;
+     text-align: center;
+
+   }
