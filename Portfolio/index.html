@@ -12,6 +12,49 @@
     <link rel="stylesheet" href="mobile.css"
             media="only screen and (max-width: 480px)">
     <title>Dunya Bulut's Portfolio</title>
+
+    <style media="screen">
+      #designgrid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+      }
+      .largeImage{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        background-size: contain;
+
+      }
+
+      .smallImage{
+        width: 100%;
+        height: auto;
+        background-color: blue;
+        background-size: contain;
+
+      }
+
+      .imageGallery{
+        width: 100%;
+        display: block;
+      }
+
+      .imageLargeTitles{
+        color: white;
+        margin-top: -200px;
+        text-align: center;
+      }
+
+      .imageSmallTitles{
+        color: white;
+
+        margin-top: -75px;
+        text-align: center;
+      }
+
+    </style>
   </head>
 
 
@@ -40,19 +83,14 @@
                   </div>
           </div>
 
-            <p id="arrow">&darr;</p>
+            <!-- <p id="arrow">&darr;</p> -->
         </header>
 <div>
   <h1>ABOUT ME.</h1>
   <section id="aboutgrid">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-    mollit anim id est laborum.</p>
+  <p>I am a junior majoring in Creative Advertising, with minors in Marketing and Psychology at University of Miami. I created this website by using HTML, CSS and Javascript.</p>
 
-  <img class="imageGallery" src="imagesss/leon1.jpeg" alt="design1">
+
   </section>
 
 </div>
@@ -62,26 +100,69 @@
   <h1>DESIGN.</h1>
 
   <div id="designgrid">
-    <img class="imageGallery" src="imagesss/leon1.jpeg" alt="design1">
-    <img class="imageGallery" src="imagesss/leon2.jpeg" alt="design2">
-    <img class="imageGallery" src="imagesss/leon3.jpeg" alt="design3">
-    <img class="imageGallery" src="imagesss/Pelican3.png" alt="design6">
-    <img class="imageGallery" src="imagesss/Pelican2.png" alt="design5">
-    <img class="imageGallery" src="imagesss/Pelican1.png" alt="design4">
+    <section class="largeImage">
+      <a href="http://www.google.com" target="_blank"><img height="650px" class="imageGallery" src="images/rebrand.png" alt="design1">
+      <p class="imageLargeTitles">Rebranding</p>
+    </a>
+    </section>
+    <section>
+
+      <section class="smallImage">
+        <img class="imageGallery" src="images/page_example.png" alt="design1">
+        <p class="imageSmallTitles">Magazine</p>
+      </section>
+
+      <section class="smallImage">
+        <img class="imageGallery" src="images/poster.png" alt="design1">
+        <p class="imageSmallTitles">Flyers</p>
+      </section>
+
+   </section>
+   <!--
+    <img class="imageGallery" src="images/Pelican3.png" alt="design6">
+    <section>
+    <img class="imageGallery" src="images/Pelican2.png" alt="design5">
+    <img class="imageGallery" src="images/Pelican1.png" alt="design4">
+  </section> -->
   </div>
 
   </div>
 
+<div id="uxdesign">
+  <section>
+    <img class="imageGallery" src="images/iphone.png" alt="design1">
+  </section>
 
+<section>
+  <h1>UX Design</h1>
+  <p>I designed an mobile geolocative application using Adobe XD. The design includes wireframes and mock-up artboards as well as prototypes. You may find the wireframes, artboards and interaction/>behavior prototypes below. </p>
+  </section>
+
+<img class="imageGallery" src="images/u1.png" alt="design1">
+<img class="imageGallery" src="images/u2.png" alt="design1">
+
+</div>
 
   <div id="photography1">
       <section>
         <h1>PHOTOGRAPHY.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco labori </p>
+
     </section>
-        <div id="nature">
+    <img class="imageGallery" src="images/5.jpg" alt="design1">
 
 
-    </div>
+<div id="grid3">
+
+         </section>
+
+         <img class="imageGallery" src="images/res1.png" alt="photo1">
+         <img class="imageGallery" src="images/res2.png" alt="photo2">
+         <img class="imageGallery" src="images/3.jpg" alt="photo2">
+         <img class="imageGallery" src="images/res6.png" alt="photo3">
+         <img class="imageGallery" src="images/res7.png" alt="photo3">
+         <img class="imageGallery" src="images/res8.png" alt="photo3">
+         <img class="imageGallery" src="images/res4.png" alt="photo3">
+         <img class="imageGallery" src="images/res5.png" alt="photo3">
+         <img class="imageGallery" src="images/Philadthropy.jpg" alt="photo3">
+
+</div>
