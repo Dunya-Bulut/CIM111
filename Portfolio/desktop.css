@@ -160,3 +160,19 @@ h1{
   grid-row-gap: 7px;
   grid-column-gap: 10px;
 }
+#grid4{
+  display: grid;
+  margin-bottom: 18px;
+  text-align:center;
+
+
+}
+
+footer{
+     width: 80%;
+     height: 100px;
+     margin: 0 auto;
+     font-family: serif;
+     text-align: center;
+
+   }
