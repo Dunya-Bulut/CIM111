@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
 
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Black+Ops+One|Luckiest+Guy|Modak|Montserrat|Passion+One|Righteous|Roboto+Slab|Stylish|ZCOOL+KuaiLe');
+
+
 
 header
 {
@@ -83,6 +86,7 @@ body
 }
 
 #hello{
+
   font-family: Roboto;
   font-weight: bolder;
   color: white;
@@ -91,8 +95,12 @@ body
 }
 
 h1{
-  font-family:serif;
-  font-size: 80px;
+
+  font-size: 75px;
+/* font-family: 'Montserrat', sans-serif;  */
+ font-family: 'Righteous', cursive;  */ */
+
+
 }
 #about{
   text-align: center;
@@ -124,6 +132,8 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: bolder;
+    /* font-family: 'Montserrat', sans-serif;  */
+     font-family: 'Righteous', cursive;  */
 
   }
 
@@ -138,7 +148,7 @@ h1{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 25px;
 
   }
 
@@ -155,8 +165,8 @@ h1{
 
 #container{
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   margin-bottom: 18px;
   text-align: center;
   margin-top: 20px;
@@ -185,10 +195,13 @@ h1{
 }
 footer{
      width: 100%;
-     height: 120px;
+     height: 55px;
      margin: 0 auto;
-     font-family: serif;
+  font-family: 'Montserrat', sans-serif;
      text-align: center;
-     background-color: rgba(240,128,128,.8);
-
+     background-color: black;
+     font-size: 18px;
+   }
+   #footertext{
+     color: gray;
    }
