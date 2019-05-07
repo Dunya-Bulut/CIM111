@@ -11,51 +11,14 @@
          media="only screen and (min-width: 480px)">
     <link rel="stylesheet" href="mobile.css"
             media="only screen and (max-width: 480px)">
+
+            <script src="jquery.js"></script>
+            <script src="jquery.sliphover.js"></script>
     <title>Dunya Bulut's Portfolio</title>
 
     <style media="screen">
-      #designgrid{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr;
-      }
-      .largeImage{
-        width: 100%;
-        height: auto;
-        background-color: black;
-        background-size: contain;
 
-      }
 
-      .smallImage{
-        width: 100%;
-        height: auto;
-        background-color: blue;
-        background-size: contain;
-
-      }
-
-      .imageGallery{
-        width: 100%;
-        display: block;
-      }
-
-      .imageLargeTitles{
-        color: white;
-        margin-top: -200px;
-        text-align: center;
-        font-size: 100px;
-        text-decoration: none;
-
-      }
-
-      .imageSmallTitles{
-        color: white;
-
-        margin-top: -75px;
-        text-align: center;
-      }
 
     </style>
   </head>
@@ -68,7 +31,7 @@
               <li class="active"> <a href="#aboutgrid"> ABOUT</a></li>
               <li> <a href="#design"> DESIGN </a></li>
               <li> <a href="#photography1"> PHOTOGRAPHY</a></li>
-              <li> <a href="#grid4"> CONTACT INFORMATION</a></li>
+              <li> <a href="DunyaBulutResume.pdf" target="_blank"> RESUME</a></li>
             </ul>
 
           </div>
@@ -81,15 +44,15 @@
           <div class="titleinthemiddle">
 
                   <div class="button">
-                    <a href="https://www.linkedin.com/in/dunya-bulut-7217a1151/" class="btn btn-one"> LinkedIn </a>
-                      <a href="https://www.instagram.com/dunyabulutt/?hl=en" class="btn btn-two"> Instagram </a>
+                    <a href="https://www.linkedin.com/in/dunya-bulut-7217a1151/" target="_blank" class="btn btn-one"> LinkedIn </a>
+                      <a href="https://www.instagram.com/dunyabulutt/?hl=en" target="_blank" class="btn btn-two"> Instagram </a>
                   </div>
           </div>
 
             <!-- <p id="arrow">&darr;</p> -->
         </header>
 <div>
-  <h1>ABOUT ME.</h1>
+  <h1 id="about">ABOUT ME.</h1>
   <section id="aboutgrid">
   <p>I am a junior majoring in Creative Advertising, with minors in Marketing and Psychology at University of Miami. I created this website by using HTML, CSS and Javascript.</p>
 
@@ -101,10 +64,23 @@
 
 <div id="design">
   <h1>DESIGN.</h1>
+  <div id="container1">
 
-  <div id="designgrid">
+
+<a href="Leon_theprofesional_DunyaBulut.pdf" target="_blank">
+           <img class="imageGallery" src="images/designleon.png" title="<p class='text'>LÉON:The Professional <br> <br>Posters, Billboards and Merchandise </p>" alt="photo1">
+</a>
+<a href="Rebranding_DunyaBulut.pdf" target="_blank">
+           <img class="imageGallery" src="images/designpelican.png" title="<p class='text'>Pelican Harbour Non-Profit <br>Brand Guide </p>" alt="photo1">
+</a>
+<a href="magazine.html" target="_blank">
+           <img class="imageGallery" src="images/designmag.png" title="<p class='text'>Magazine Design </p>" alt="photo1">
+</a>
+
+  </div>
+  <!-- <div id="designgrid">
     <section class="largeImage">
-      <!-- <a href="http://www.google.com" target="_blank"> -->
+       <a href="newpage.html" target="_blank">
 
         <img height="650px" class="imageGallery" src="images/rebrand.png" alt="design1">
       <p class="imageLargeTitles"></p>
@@ -123,13 +99,13 @@
       </section>
 
    </section>
-   <!--
+
     <img class="imageGallery" src="images/Pelican3.png" alt="design6">
     <section>
     <img class="imageGallery" src="images/Pelican2.png" alt="design5">
     <img class="imageGallery" src="images/Pelican1.png" alt="design4">
   </section> -->
-  </div>
+  <!-- </div> -->
 
   </div>
 
@@ -140,7 +116,7 @@
 
 <section>
   <h1>UX Design</h1>
-  <p>I designed a mobile geolocative application using Adobe XD called GeoMuse UM. It is a project funded by University of Miami Lowe Art Museum to help visitors or students on campus to learn more about the sculptures. The design includes wireframes and mock-up artboards as well as prototypes. You may find the wireframes, artboards and interaction/>behavior prototypes below. </p>
+  <p>I designed a mobile geolocative application using Adobe XD called GeoMuse UM. It is a project funded by University of Miami Lowe Art Museum to help visitors or students on campus to learn more about the sculptures. The design includes wireframes and mock-up artboards as well as prototypes. You may find the wireframes, artboards and interaction/behavior prototypes below. </p>
   </section>
 
 <img class="imageGallery" src="images/u1.png" alt="design1">
@@ -149,44 +125,43 @@
 </div>
 
   <div id="photography1">
-      <section>
-        <h1>PHOTOGRAPHY.</h1>
 
-    </section>
-    <img class="imageGallery" src="images/5.jpg" alt="design1">
+        <p>PHOTOGRAPHY.</p>
 
-
-<div id="grid3">
-
-         </section>
-
-         <img class="imageGallery" src="images/res1.png" alt="photo1">
-         <img class="imageGallery" src="images/res2.png" alt="photo2">
-         <img class="imageGallery" src="images/3.jpg" alt="photo2">
-         <img class="imageGallery" src="images/res6.png" alt="photo3">
-         <img class="imageGallery" src="images/res7.png" alt="photo3">
-         <img class="imageGallery" src="images/res8.png" alt="photo3">
-         <img class="imageGallery" src="images/res4.png" alt="photo3">
-         <img class="imageGallery" src="images/res5.png" alt="photo3">
-         <img class="imageGallery" src="images/Philadthropy.jpg" alt="photo3">
 
 </div>
 
-<section id="grid4">
-    <h2>Contact Information</h2>
-    <br>
-
-<p>
-      dunyabulut@gmail.com
-      <br>
-      University of Miami 2020
-</p>
+<div id="container">
 
 
-</section>
+<a href="newpage.html" target="_blank">
+         <img class="imageGallery" src="images/3.jpg" title="<p class='text'>WIRED.COM <br>CYBER SECURITY ARTICLES</p>" alt="photo1">
+</a>
+         <img class="imageGallery" src="images/face.jpg" title="<p class='text'> <em> Always</em> <br>Social Media Ads <br>Face Retouching</p>" alt="photo1">
+         <img class="imageGallery" src="images/olive.jpg" title="<p class='text'>IBERIA <br>Product Photography</p>" alt="photo1">
+         <img class="imageGallery" src="images/Philadthropy1.jpg" title="<p class='text'>PhilADthropy 2018 <br>Model Shooting </p>" alt="photo1">
+</div>
+
 
 </main>
-<footer>Dunya Bulut 2019 <br>All rights reserved.&nbsp; &copy; <br> Last update: 03.20.2019 <br> UM School of Communication
+<br>
+<br>
+<br>
+
+<footer>Dunya Bulut 2019 <br>All rights reserved.&nbsp; &copy; <br> Last update: 05.03.2019 <br> UM School of Communication
 5100 Brunson Drive, Coral Gables, FL</footer>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+$("#container").sliphover({
+  backgroundColor: 'rgba(240,128,128,.8)'
+});
+$("#container1").sliphover({
+  backgroundColor: 'rgba(240,128,128,.8)'
+});
+});
+</script>
+
+
 </body>
 </html>

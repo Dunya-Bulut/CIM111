@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
 
 header
 {
   background-image: url(images/linkedin2.jpg);
-  height: 70vh;
+  height: 90vh;
   background-position: center;
   background-size: cover;
   margin-top: -70px;
@@ -30,7 +32,7 @@ header
   text-decoration:none;
   padding: 5px 20px;
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-family: Roboto;
 }
 
@@ -84,7 +86,7 @@ body
   font-family: Roboto;
   font-weight: bolder;
   color: white;
-  font-size: 4vw;
+  font-size: 5vw;
   margin-left: 60%;
 }
 
@@ -92,47 +94,42 @@ h1{
   font-family:serif;
   font-size: 80px;
 }
-
-/* #arrow{
-  font-size: 50px;
-  margin-left: 50%;
-  margin-top: 30px;
-  color: white;
-} */
+#about{
+  text-align: center;
+}
 #aboutgrid{
   display: grid;
   font-family: serif;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-/* #designgrid{
+#designgrid{
+  width: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-} */
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
 
  #photography1{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     margin-bottom: 20px;
-    font-size: 25px;
-
+    font-size: 90px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    font-weight: bolder;
+
   }
 
   #design{
     width: 100%;
-    height: 800px;
+    height: 650px;
   }
 
   #uxdesign{
@@ -150,7 +147,13 @@ h1{
   margin: 0 auto;
   }
 
-#grid3{
+
+    .imageGallery{
+      width: 100%;
+      display: block;
+    }
+
+#container{
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -159,20 +162,33 @@ h1{
   margin-top: 20px;
   grid-row-gap: 7px;
   grid-column-gap: 10px;
+  font-size: 25px;
 }
-#grid4{
+
+#container1{
   display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 18px;
-  text-align:center;
-
-
+  text-align: center;
+  margin-top: 20px;
+  grid-row-gap: 7px;
+  grid-column-gap: 10px;
+  font-size: 25px;
 }
 
+
+.text{
+  font-size: 36px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
+}
 footer{
-     width: 80%;
-     height: 100px;
+     width: 100%;
+     height: 120px;
      margin: 0 auto;
      font-family: serif;
      text-align: center;
+     background-color: rgba(240,128,128,.8);
 
    }
