@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Black+Ops+One|Luckiest+Guy|Modak|Montserrat|Passion+One|Righteous|Roboto+Slab|Stylish|ZCOOL+KuaiLe');
+
+
+
 header
 {
   background-image: url(images/linkedin2.jpg);
@@ -5,7 +13,7 @@ header
   background-position: center;
   background-size: cover;
   margin-top: -70px;
-  display: block;
+
 }
 
 
@@ -19,8 +27,7 @@ header
 
 .main-nav li
 {
-  display: block;
-  padding: 10px;
+  display:block;
 }
 
 .main-nav li a
@@ -80,6 +87,7 @@ body
 }
 
 #hello{
+
   font-family: Roboto;
   font-weight: bolder;
   color: white;
@@ -88,14 +96,18 @@ body
 }
 
 h1{
-  font-family:serif;
-  font-size: 80px;
+
+  font-size: 75px;
+/* font-family: 'Montserrat', sans-serif;  */
+ font-family: 'Righteous', cursive;  */ */
+
+
 }
 #about{
   text-align: center;
 }
 #aboutgrid{
-  display: grid;
+  display: block;
   font-family: serif;
   margin-bottom: 20px;
   font-size: 25px;
@@ -117,12 +129,14 @@ h1{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 90px;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    font-weight: bolder;
+    /* font-family: 'Montserrat', sans-serif;  */
+     font-family: 'Righteous', cursive;
 
+  }
   #design{
     width: 100%;
     height: 650px;
@@ -134,8 +148,7 @@ h1{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
-    font-size: 20px;
-    margin-top: 800px;
+    font-size: 25px;
 
   }
 
@@ -152,15 +165,14 @@ h1{
 
 #container{
   display: block;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   margin-bottom: 18px;
   text-align: center;
   margin-top: 20px;
   grid-row-gap: 7px;
   grid-column-gap: 10px;
   font-size: 25px;
-
 }
 
 #container1{
@@ -173,7 +185,6 @@ h1{
   grid-row-gap: 7px;
   grid-column-gap: 10px;
   font-size: 25px;
-
 }
 
 
@@ -186,7 +197,11 @@ footer{
      width: 100%;
      height: 55px;
      margin: 0 auto;
-     font-family: serif;
+  font-family: 'Montserrat', sans-serif;
      text-align: center;
-     background-color: rgba(240,128,128,.8);
+     background-color: black;
+     font-size: 18px;
+   }
+   #footertext{
+     color: gray;
    }
