@@ -145,7 +145,7 @@ h1{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 15px;
 
 
   }
@@ -198,7 +198,7 @@ footer{
   font-family: 'Montserrat', sans-serif;
      text-align: center;
      background-color: black;
-     font-size: 18px;
+     font-size: 10px;
    }
    #footertext{
      color: gray;
