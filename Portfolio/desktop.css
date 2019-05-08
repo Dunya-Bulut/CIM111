@@ -115,12 +115,7 @@ h1{
   margin-right: 20%;
 }
 
-#designgrid{
-  width: 100%;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-}
+
 
 
  #photography1{
