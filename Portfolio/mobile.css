@@ -9,7 +9,7 @@
 header
 {
   background-image: url(images/linkedin2.jpg);
-  height: 90vh;
+  height: 50vh;
   background-position: center;
   background-size: cover;
   margin-top: -70px;
@@ -125,7 +125,7 @@ h1{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 45px;
     background-repeat: no-repeat;
     background-size: cover;
     font-weight: bolder;
@@ -136,7 +136,7 @@ h1{
   #design{
     width: 100%;
     height: 650px;
-    
+    margin-bottom: 860px;
   }
 
   #uxdesign{
